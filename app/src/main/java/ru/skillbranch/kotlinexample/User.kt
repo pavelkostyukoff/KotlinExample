@@ -14,7 +14,7 @@ class User private constructor(
     rawPhone: String? = null,
     meta: Map<String, Any>? = null
 ) {
-
+        //todo test
     private var salt: String? = null
     private lateinit var passwordHash: String
 
